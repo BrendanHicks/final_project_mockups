@@ -6,41 +6,53 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="container">
-		<div class="row jumbotron Header top-buffer-20">
-			<div class="page-header">
-					
 
-				<h1 class="text-success text-center">Seat Slasher</h1>
-				<h3 class="text-center">Save Money on Last Minute Entertainment</h3>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			    <span class="sr-only">Toggle navigation</span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			    <span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#">Seat Slasher</a>
+			</div>
 
-				<ul class="nav nav-pills center-pills">
-					<li class="active"><a href="http://www.google.com">Sign Up</a></li>
-					<li class="active"><a href="#testimonial">Testimonials</a></li>	
-					<li class="active"><a href="#FAQ">About Us</a></li>
-					<li class="active"><a href="#">Login</a></li>		
+			<div class="navbar-collapse collapse">
+	 	 		<ul class="nav navbar-nav">
+				    <li class="active"><a href="#">Home</a></li>
+				    <li><a href="#testimonial">Testimonials</a></li>
+				    <li><a href="#FAQ">About Us</a></li>
 				</ul>
 
-
+				<ul class="nav navbar-nav navbar-right">
+				  <li><a href="http://www.google.com"><b>Sign-Up</b></a></li>
+				  <li><a href="http://www.google.com"><b>Log-In</b></a></li>
+				</ul>
 			</div>
-		</div>
 
-			<div class="row jumbotron">
+		</div>
+	</div>
+
+
+	<div class="container">
+			<div class="row jumbotron Header top-buffer-20">
 				<div class="col-md-8">
 					<img src="images/savings.jpg" width="600px" height="350px">						
 				</div>
 
 				<div class="col-md-4">
-					<p>
+					<h2>Seat Slasher</h2>
+					<p class="Subtitle">
 						Save Money by signing up for alerts for tickets under face value.
 					</p>
 
 					<button type="button" class="btn btn-primary btn-lg"><b><span class="glyphicon glyphicon-plus"></span>  Get Started!</b></button>
-								
+			<a id="testimonial"></a>								
 				</div>
 			</div>
 
-			<a id="testimonial"></a>
 			<div class="row jumbotron">	
 				<div class="col-md-4 center-text">
 					<div class="thumbnail">
@@ -73,10 +85,10 @@
 									<div class="UserName">- Robert S.</div>
 							</div>
 					</div>
+			<a id="FAQ"></a>
 				</div>
 			</div>
 
-			<a id="FAQ"></a>
 			<div class="row jumbotron">
 				<div class="col-md-12">
 
@@ -102,4 +114,5 @@
 		</div>
 		
 	</div>
+	</nav>
 </body>

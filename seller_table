@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>
-		Buyer Table
+		Seller Table
 	</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="styles.css">
@@ -13,7 +13,9 @@
 		<div class="row jumbotron top-buffer-20">
 
 		<button type="button" class="btn btn-primary btn-xs Preferences"><span class="glyphicon glyphicon-pencil"> Edit Preferences</span></button>
-			<h2>Available Entertainment:</h2>
+		<button type="button" class="btn btn-success btn-xs AddEvent"><span class="glyphicon glyphicon-plus"> Add Event</span></button>
+		
+			<h2>Inventory Currently Advertised:</h2>
 
 
 <!-- 		</div>
@@ -31,7 +33,7 @@
 						<th>Seat Section</th>
 						<th>Seat Row</th>
 						<th>Price</th>
-						<th>Contact Seller</th>
+						<th>Send Alert</th>
 					</tr>
 					<tr class="text-center">
 						<td><button type="button" class="btn btn-default btn-xs btn-danger"><span class="glyphicon glyphicon-remove"></span></button></td>
